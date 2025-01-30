@@ -1,0 +1,745 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="profile" href="https://gmpg.org/xfn/11">
+	
+
+	<title>Frontend Development &#8211; WhatsOn Academy</title>
+<meta name="robots" content="max-image-preview:large">
+	<style>img:is([sizes="auto" i], [sizes^="auto," i]) { contain-intrinsic-size: 3000px 1500px }</style>
+	<link rel="dns-prefetch" href="//fonts.googleapis.com">
+<link rel="alternate" type="application/rss+xml" title="WhatsOn Academy &raquo; Feed" href="./../../feed/index.html">
+<link rel="alternate" type="application/rss+xml" title="WhatsOn Academy &raquo; Comments Feed" href="./../../comments/feed/index.html">
+<script type="text/javascript">
+/* <![CDATA[ */
+window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/15.0.3\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/15.0.3\/svg\/","svgExt":".svg","source":{"concatemoji":".\/\/wp-includes\/js\/wp-emoji-release.min.js?ver=6.7.1"}};
+/*! This file is auto-generated */
+!function(i,n){var o,s,e;function c(e){try{var t={supportTests:e,timestamp:(new Date).valueOf()};sessionStorage.setItem(o,JSON.stringify(t))}catch(e){}}function p(e,t,n){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);var t=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data),r=(e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(n,0,0),new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data));return t.every(function(e,t){return e===r[t]})}function u(e,t,n){switch(t){case"flag":return n(e,"🏳️‍⚧️","🏳️​⚧️")?!1:!n(e,"🇺🇳","🇺​🇳")&&!n(e,"🏴󠁧󠁢󠁥󠁮󠁧󠁿","🏴​󠁧​󠁢​󠁥​󠁮​󠁧​󠁿");case"emoji":return!n(e,"🐦‍⬛","🐦​⬛")}return!1}function f(e,t,n){var r="undefined"!=typeof WorkerGlobalScope&&self instanceof WorkerGlobalScope?new OffscreenCanvas(300,150):i.createElement("canvas"),a=r.getContext("2d",{willReadFrequently:!0}),o=(a.textBaseline="top",a.font="600 32px Arial",{});return e.forEach(function(e){o[e]=t(a,e,n)}),o}function t(e){var t=i.createElement("script");t.src=e,t.defer=!0,i.head.appendChild(t)}"undefined"!=typeof Promise&&(o="wpEmojiSettingsSupports",s=["flag","emoji"],n.supports={everything:!0,everythingExceptFlag:!0},e=new Promise(function(e){i.addEventListener("DOMContentLoaded",e,{once:!0})}),new Promise(function(t){var n=function(){try{var e=JSON.parse(sessionStorage.getItem(o));if("object"==typeof e&&"number"==typeof e.timestamp&&(new Date).valueOf()<e.timestamp+604800&&"object"==typeof e.supportTests)return e.supportTests}catch(e){}return null}();if(!n){if("undefined"!=typeof Worker&&"undefined"!=typeof OffscreenCanvas&&"undefined"!=typeof URL&&URL.createObjectURL&&"undefined"!=typeof Blob)try{var e="postMessage("+f.toString()+"("+[JSON.stringify(s),u.toString(),p.toString()].join(",")+"));",r=new Blob([e],{type:"text/javascript"}),a=new Worker(URL.createObjectURL(r),{name:"wpTestEmojiSupports"});return void(a.onmessage=function(e){c(n=e.data),a.terminate(),t(n)})}catch(e){}c(n=f(s,u,p))}t(n)}).then(function(e){for(var t in e)n.supports[t]=e[t],n.supports.everything=n.supports.everything&&n.supports[t],"flag"!==t&&(n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&n.supports[t]);n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&!n.supports.flag,n.DOMReady=!1,n.readyCallback=function(){n.DOMReady=!0}}).then(function(){return e}).then(function(){var e;n.supports.everything||(n.readyCallback(),(e=n.source||{}).concatemoji?t(e.concatemoji):e.wpemoji&&e.twemoji&&(t(e.twemoji),t(e.wpemoji)))}))}((window,document),window._wpemojiSettings);
+/* ]]> */
+</script>
+<link rel="stylesheet" id="jquery.prettyphoto-css" href="./../../wp-content/plugins/wp-video-lightbox/css/prettyPhoto.css?ver=6.7.1" type="text/css" media="all">
+<link rel="stylesheet" id="video-lightbox-css" href="./../../wp-content/plugins/wp-video-lightbox/wp-video-lightbox.css?ver=6.7.1" type="text/css" media="all">
+<style id="wp-emoji-styles-inline-css" type="text/css">img.wp-smiley, img.emoji {
+		display: inline !important;
+		border: none !important;
+		box-shadow: none !important;
+		height: 1em !important;
+		width: 1em !important;
+		margin: 0 0.07em !important;
+		vertical-align: -0.1em !important;
+		background: none !important;
+		padding: 0 !important;
+	}</style>
+<link rel="stylesheet" id="wp-block-library-css" href="./../../wp-includes/css/dist/block-library/style.min.css?ver=6.7.1" type="text/css" media="all">
+<style id="wp-block-library-theme-inline-css" type="text/css">.wp-block-audio :where(figcaption){color:#555;font-size:13px;text-align:center}.is-dark-theme .wp-block-audio :where(figcaption){color:#ffffffa6}.wp-block-audio{margin:0 0 1em}.wp-block-code{border:1px solid #ccc;border-radius:4px;font-family:Menlo,Consolas,monaco,monospace;padding:.8em 1em}.wp-block-embed :where(figcaption){color:#555;font-size:13px;text-align:center}.is-dark-theme .wp-block-embed :where(figcaption){color:#ffffffa6}.wp-block-embed{margin:0 0 1em}.blocks-gallery-caption{color:#555;font-size:13px;text-align:center}.is-dark-theme .blocks-gallery-caption{color:#ffffffa6}:root :where(.wp-block-image figcaption){color:#555;font-size:13px;text-align:center}.is-dark-theme :root :where(.wp-block-image figcaption){color:#ffffffa6}.wp-block-image{margin:0 0 1em}.wp-block-pullquote{border-bottom:4px solid;border-top:4px solid;color:currentColor;margin-bottom:1.75em}.wp-block-pullquote cite,.wp-block-pullquote footer,.wp-block-pullquote__citation{color:currentColor;font-size:.8125em;font-style:normal;text-transform:uppercase}.wp-block-quote{border-left:.25em solid;margin:0 0 1.75em;padding-left:1em}.wp-block-quote cite,.wp-block-quote footer{color:currentColor;font-size:.8125em;font-style:normal;position:relative}.wp-block-quote:where(.has-text-align-right){border-left:none;border-right:.25em solid;padding-left:0;padding-right:1em}.wp-block-quote:where(.has-text-align-center){border:none;padding-left:0}.wp-block-quote.is-large,.wp-block-quote.is-style-large,.wp-block-quote:where(.is-style-plain){border:none}.wp-block-search .wp-block-search__label{font-weight:700}.wp-block-search__button{border:1px solid #ccc;padding:.375em .625em}:where(.wp-block-group.has-background){padding:1.25em 2.375em}.wp-block-separator.has-css-opacity{opacity:.4}.wp-block-separator{border:none;border-bottom:2px solid;margin-left:auto;margin-right:auto}.wp-block-separator.has-alpha-channel-opacity{opacity:1}.wp-block-separator:not(.is-style-wide):not(.is-style-dots){width:100px}.wp-block-separator.has-background:not(.is-style-dots){border-bottom:none;height:1px}.wp-block-separator.has-background:not(.is-style-wide):not(.is-style-dots){height:2px}.wp-block-table{margin:0 0 1em}.wp-block-table td,.wp-block-table th{word-break:normal}.wp-block-table :where(figcaption){color:#555;font-size:13px;text-align:center}.is-dark-theme .wp-block-table :where(figcaption){color:#ffffffa6}.wp-block-video :where(figcaption){color:#555;font-size:13px;text-align:center}.is-dark-theme .wp-block-video :where(figcaption){color:#ffffffa6}.wp-block-video{margin:0 0 1em}:root :where(.wp-block-template-part.has-background){margin-bottom:0;margin-top:0;padding:1.25em 2.375em}</style>
+<style id="classic-theme-styles-inline-css" type="text/css">/*! This file is auto-generated */
+.wp-block-button__link{color:#fff;background-color:#32373c;border-radius:9999px;box-shadow:none;text-decoration:none;padding:calc(.667em + 2px) calc(1.333em + 2px);font-size:1.125em}.wp-block-file__button{background:#32373c;color:#fff;text-decoration:none}</style>
+<style id="global-styles-inline-css" type="text/css">:root{--wp--preset--aspect-ratio--square: 1;--wp--preset--aspect-ratio--4-3: 4/3;--wp--preset--aspect-ratio--3-4: 3/4;--wp--preset--aspect-ratio--3-2: 3/2;--wp--preset--aspect-ratio--2-3: 2/3;--wp--preset--aspect-ratio--16-9: 16/9;--wp--preset--aspect-ratio--9-16: 9/16;--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;--wp--preset--font-family--inter: "Inter", sans-serif;--wp--preset--font-family--cardo: Cardo;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgba(255, 255, 255, 1), 6px 6px rgba(0, 0, 0, 1);--wp--preset--shadow--crisp: 6px 6px 0px rgba(0, 0, 0, 1);}:where(.is-layout-flex){gap: 0.5em;}:where(.is-layout-grid){gap: 0.5em;}body .is-layout-flex{display: flex;}.is-layout-flex{flex-wrap: wrap;align-items: center;}.is-layout-flex > :is(*, div){margin: 0;}body .is-layout-grid{display: grid;}.is-layout-grid > :is(*, div){margin: 0;}:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}
+:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}
+:root :where(.wp-block-pullquote){font-size: 1.5em;line-height: 1.6;}</style>
+<link rel="stylesheet" id="dashicons-css" href="./../../wp-includes/css/dashicons.min.css?ver=6.7.1" type="text/css" media="all">
+<link rel="stylesheet" id="everest-forms-general-css" href="./../../wp-content/plugins/everest-forms/assets/css/everest-forms.css?ver=3.0.2" type="text/css" media="all">
+<link rel="stylesheet" id="jquery-intl-tel-input-css" href="./../../wp-content/plugins/everest-forms/assets/css/intlTelInput.css?ver=3.0.2" type="text/css" media="all">
+<link rel="stylesheet" id="photoswipe-css" href="./../../wp-content/plugins/woocommerce/assets/css/photoswipe/photoswipe.min.css?ver=9.1.4" type="text/css" media="all">
+<link rel="stylesheet" id="photoswipe-default-skin-css" href="./../../wp-content/plugins/woocommerce/assets/css/photoswipe/default-skin/default-skin.min.css?ver=9.1.4" type="text/css" media="all">
+<link rel="stylesheet" id="woocommerce-layout-css" href="./../../wp-content/plugins/woocommerce/assets/css/woocommerce-layout.css?ver=9.1.4" type="text/css" media="all">
+<link rel="stylesheet" id="woocommerce-smallscreen-css" href="./../../wp-content/plugins/woocommerce/assets/css/woocommerce-smallscreen.css?ver=9.1.4" type="text/css" media="only screen and (max-width: 768px)">
+<link rel="stylesheet" id="woocommerce-general-css" href="./../../wp-content/plugins/woocommerce/assets/css/woocommerce.css?ver=9.1.4" type="text/css" media="all">
+<style id="woocommerce-inline-inline-css" type="text/css">.woocommerce form .form-row .required { visibility: visible; }</style>
+<link rel="stylesheet" id="font-awesome-css" href="./../../wp-content/plugins/elementor/assets/lib/font-awesome/css/font-awesome.min.css?ver=4.7.0" type="text/css" media="all">
+<link rel="stylesheet" id="elearning-style-css" href="./../../wp-content/themes/elearning/style.css?ver=1.0.11" type="text/css" media="all">
+<style id="elearning-style-inline-css" type="text/css">@media screen and (min-width:1200px){.tg-container{max-width:1170px;}}a:hover, a:focus, .tg-primary-menu > div ul li:hover > a,  .tg-primary-menu > div ul li.current_page_item > a, .tg-primary-menu > div ul li.current-menu-item > a,  .tg-mobile-navigation > div ul li.current_page_item > a, .tg-mobile-navigation > div ul li.current-menu-item > a,  .entry-content a,  .tg-meta-style-two .entry-meta span, .tg-meta-style-two .entry-meta a, .entry-title a:hover, .entry-title a:focus{color:#4aaca7;}.tg-primary-menu.tg-primary-menu--style-underline > div > ul > li.current_page_item > a::before, .tg-primary-menu.tg-primary-menu--style-underline > div > ul > li.current-menu-item > a::before, .tg-primary-menu.tg-primary-menu--style-left-border > div > ul > li.current_page_item > a::before, .tg-primary-menu.tg-primary-menu--style-left-border > div > ul > li.current-menu-item > a::before, .tg-primary-menu.tg-primary-menu--style-right-border > div > ul > li.current_page_item > a::before, .tg-primary-menu.tg-primary-menu--style-right-border > div > ul > li.current-menu-item > a::before, .tg-scroll-to-top:hover, button, input[type="button"], input[type="reset"], input[type="submit"], .tg-primary-menu > div ul li.tg-header-button-wrap a{background-color:#4aaca7;}body, a{color:#000000;}h1, h2, h3, h4, h5, h6, .entry-title a{color:#37423b;}.entry-content a{color:#4aaca7;}.entry-content a:hover, .entry-content a:focus{color:#4aaca7;}body{font-family:Montserrat;font-weight:400;font-size:16px;}h1, h2, h3, h4, h5, h6{font-family:Montserrat;font-weight:600;}button:hover, input[type="button"]:hover, input[type="reset"]:hover, input[type="submit"]:hover, #infinite-handle span:hover{background-color:#1e7ba6;}button, input[type="button"], input[type="reset"], input[type="submit"], #infinite-handle span{border-radius:2px;}.site-branding .site-title{font-family:Montserrat;}.tg-site-header, .tg-container--separate .tg-site-header{background-size:contain;}.tg-site-header{border-bottom-width:0px;}.tg-site .tg-site-header{border-bottom-color:#000000;}.main-navigation.tg-primary-menu > div ul li.tg-header-button-wrap a{padding-top:9px;padding-right:24px;padding-bottom:9px;padding-left:24px;}.main-navigation.tg-primary-menu > div ul li.tg-header-button-wrap a{background-color:#4aaca7;}.main-navigation.tg-primary-menu > div ul li.tg-header-button-wrap a:hover{background-color:#4aaca7;}.main-navigation.tg-primary-menu > div ul li.tg-header-button-wrap a{border-radius:2px;}.tg-site-header .main-navigation{border-bottom-width:0px;}.tg-site-header .main-navigation{border-bottom-color:#81d742;}.tg-primary-menu > div > ul li:not(.tg-header-button-wrap) a{color:#334b49;}.tg-primary-menu > div > ul li:not(.tg-header-button-wrap):hover > a{color:#f13426;}.tg-primary-menu > div ul li:active > a, .tg-primary-menu > div ul > li:not(.tg-header-button-wrap).current_page_item > a, .tg-primary-menu > div ul > li:not(.tg-header-button-wrap).current_page_ancestor > a, .tg-primary-menu > div ul > li:not(.tg-header-button-wrap).current-menu-item > a, .tg-primary-menu > div ul > li:not(.tg-header-button-wrap).current-menu-ancestor > a{color:#334b49;}.tg-primary-menu.tg-primary-menu--style-underline > div ul > li:not(.tg-header-button-wrap).current_page_item > a::before, .tg-primary-menu.tg-primary-menu--style-underline > div ul > li:not(.tg-header-button-wrap).current_page_ancestor > a::before, .tg-primary-menu.tg-primary-menu--style-underline > div ul > li:not(.tg-header-button-wrap).current-menu-item > a::before, .tg-primary-menu.tg-primary-menu--style-underline > div ul > li:not(.tg-header-button-wrap).current-menu-ancestor > a::before, .tg-primary-menu.tg-primary-menu--style-left-border > div ul > li:not(.tg-header-button-wrap).current_page_item > a::before, .tg-primary-menu.tg-primary-menu--style-left-border > div ul > li:not(.tg-header-button-wrap).current_page_ancestor > a::before, .tg-primary-menu.tg-primary-menu--style-left-border > div ul > li:not(.tg-header-button-wrap).current-menu-item > a::before, .tg-primary-menu.tg-primary-menu--style-left-border > div ul > li:not(.tg-header-button-wrap).current-menu-ancestor > a::before, .tg-primary-menu.tg-primary-menu--style-right-border > div ul > li:not(.tg-header-button-wrap).current_page_item > a::before, .tg-primary-menu.tg-primary-menu--style-right-border > div ul > li:not(.tg-header-button-wrap).current_page_ancestor > a::before, .tg-primary-menu.tg-primary-menu--style-right-border > div ul > li:not(.tg-header-button-wrap).current-menu-item > a::before, .tg-primary-menu.tg-primary-menu--style-right-border > div ul > li:not(.tg-header-button-wrap).current-menu-ancestor > a::before{background-color:#334b49;}.tg-primary-menu > div ul li a{font-family:Montserrat;font-weight:500;font-size:16px;}.tg-page-header{padding-top:50px;padding-bottom:50px;}.tg-page-header .tg-page-header__title, .tg-page-content__title, .tg-page-header .archive-description > p{color:#ffffff;}.tg-page-header, .tg-container--separate .tg-page-header{background-color:rgb(121,99,224);background-size:contain;}.tg-page-header .breadcrumb-trail ul li{color:#ffffff;}.tg-page-header .breadcrumb-trail ul li::after{color:rgb(255,255,255);}.tg-page-header .breadcrumb-trail ul li a{color:rgb(255,255,255);}.tg-page-header .tg-page-header__title, .tg-page-content__title{font-family:Inter;font-size:48px;}.entry-title:not(.tg-page-content__title){font-family:Inter;}.widget .widget-title{font-family:Inter;font-weight:400;}.widget{font-family:Inter;font-size:16px;}.tg-site-footer-widgets{background-color:rgb(248,248,248);}.tg-site-footer .tg-site-footer-bar{background-color:#eef0ef;}.tg-site-footer .tg-site-footer-bar{color:#000000;}.tg-site-footer .tg-site-footer-bar{border-top-width:3px;}.tg-scroll-to-top{background-color:rgb(121,99,224);}.tg-scroll-to-top:hover{background-color:rgb(157,128,255);}</style>
+<link rel="stylesheet" id="elearning_googlefonts-css" href="//fonts.googleapis.com/css?family=Montserrat%3Aregular%2C600%2C500%7CInter%3A500%2Cregular&#038;1&#038;display=swap&#038;ver=1.0.11" type="text/css" media="all">
+<link rel="stylesheet" id="masteriyo-public-css" href="./../../wp-content/plugins/learning-management-system/assets/css/public.css?ver=1.12.1" type="text/css" media="all">
+<style id="masteriyo-public-inline-css" type="text/css">:root {
+		--masteriyo-color-primary: #4AACA7 ;
+        --masteriyo-color-primary-light: #60dfd9;
+        --masteriyo-color-primary-dark: #46a39e;
+        --masteriyo-color-btn-blue-hover: #60dfd9;
+      }</style>
+<link rel="stylesheet" id="elearning-mto-style-css" href="./../../wp-content/themes/elearning/masteriyo.css?ver=1.0.11" type="text/css" media="all">
+<script type="text/javascript" src="./../../wp-includes/js/jquery/jquery.min.js?ver=3.7.1" id="jquery-core-js"></script>
+<script type="text/javascript" src="./../../wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1" id="jquery-migrate-js"></script>
+<script type="text/javascript" src="./../../wp-content/plugins/wp-video-lightbox/js/jquery.prettyPhoto.js?ver=3.1.6" id="jquery.prettyphoto-js"></script>
+<script type="text/javascript" id="video-lightbox-js-extra">
+/* <![CDATA[ */
+var vlpp_vars = {"prettyPhoto_rel":"wp-video-lightbox","animation_speed":"fast","slideshow":"5000","autoplay_slideshow":"false","opacity":"0.80","show_title":"true","allow_resize":"true","allow_expand":"true","default_width":"640","default_height":"480","counter_separator_label":"\/","theme":"pp_default","horizontal_padding":"20","hideflash":"false","wmode":"opaque","autoplay":"false","modal":"false","deeplinking":"false","overlay_gallery":"true","overlay_gallery_max":"30","keyboard_shortcuts":"true","ie6_fallback":"true"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="./../../wp-content/plugins/wp-video-lightbox/js/video-lightbox.js?ver=3.1.6" id="video-lightbox-js"></script>
+<script type="text/javascript" src="./../../wp-content/plugins/woocommerce/assets/js/jquery-blockui/jquery.blockUI.min.js?ver=2.7.0-wc.9.1.4" id="jquery-blockui-js" defer data-wp-strategy="defer"></script>
+<script type="text/javascript" id="wc-add-to-cart-js-extra">
+/* <![CDATA[ */
+var wc_add_to_cart_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_url":"\/?wc-ajax=%%endpoint%%","i18n_view_cart":"View cart","cart_url":".\/\/cart\/","is_cart":"","cart_redirect_after_add":"yes"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="./../../wp-content/plugins/woocommerce/assets/js/frontend/add-to-cart.min.js?ver=9.1.4" id="wc-add-to-cart-js" defer data-wp-strategy="defer"></script>
+<script type="text/javascript" src="./../../wp-content/plugins/woocommerce/assets/js/zoom/jquery.zoom.min.js?ver=1.7.21-wc.9.1.4" id="zoom-js" defer data-wp-strategy="defer"></script>
+<script type="text/javascript" src="./../../wp-content/plugins/woocommerce/assets/js/flexslider/jquery.flexslider.min.js?ver=2.7.2-wc.9.1.4" id="flexslider-js" defer data-wp-strategy="defer"></script>
+<script type="text/javascript" src="./../../wp-content/plugins/woocommerce/assets/js/photoswipe/photoswipe.min.js?ver=4.1.1-wc.9.1.4" id="photoswipe-js" defer data-wp-strategy="defer"></script>
+<script type="text/javascript" src="./../../wp-content/plugins/woocommerce/assets/js/photoswipe/photoswipe-ui-default.min.js?ver=4.1.1-wc.9.1.4" id="photoswipe-ui-default-js" defer data-wp-strategy="defer"></script>
+<script type="text/javascript" id="wc-single-product-js-extra">
+/* <![CDATA[ */
+var wc_single_product_params = {"i18n_required_rating_text":"Please select a rating","review_rating_required":"yes","flexslider":{"rtl":false,"animation":"slide","smoothHeight":true,"directionNav":false,"controlNav":"thumbnails","slideshow":false,"animationSpeed":500,"animationLoop":false,"allowOneSlide":false},"zoom_enabled":"1","zoom_options":[],"photoswipe_enabled":"1","photoswipe_options":{"shareEl":false,"closeOnScroll":false,"history":false,"hideAnimationDuration":0,"showAnimationDuration":0},"flexslider_enabled":"1"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="./../../wp-content/plugins/woocommerce/assets/js/frontend/single-product.min.js?ver=9.1.4" id="wc-single-product-js" defer data-wp-strategy="defer"></script>
+<script type="text/javascript" src="./../../wp-content/plugins/woocommerce/assets/js/js-cookie/js.cookie.min.js?ver=2.1.4-wc.9.1.4" id="js-cookie-js" defer data-wp-strategy="defer"></script>
+<script type="text/javascript" id="woocommerce-js-extra">
+/* <![CDATA[ */
+var woocommerce_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_url":"\/?wc-ajax=%%endpoint%%"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="./../../wp-content/plugins/woocommerce/assets/js/frontend/woocommerce.min.js?ver=9.1.4" id="woocommerce-js" defer data-wp-strategy="defer"></script>
+<link rel="https://api.w.org/" href="./../../wp-json/index.html">
+<link rel="alternate" title="JSON" type="application/json" href="./../../wp-json/wp/v2/product/2887/index.html">
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="./../../xmlrpc.php?rsd">
+<meta name="generator" content="WordPress 6.7.1">
+<meta name="generator" content="Everest Forms 3.0.2">
+<meta name="generator" content="WooCommerce 9.1.4">
+<link rel="canonical" href="./index.html">
+<link rel="shortlink" href="./../../index.html?p=2887">
+<link rel="alternate" title="oEmbed (JSON)" type="application/json+oembed" href="./../../wp-json/oembed/1.0/embed/index.html?url=https%3A%2F%2F%2Fproduct%2Ffrontend-development%2F">
+<link rel="alternate" title="oEmbed (XML)" type="text/xml+oembed" href="./../../wp-json/oembed/1.0/embed/index.html?url=https%3A%2F%2F%2Fproduct%2Ffrontend-development%2F#038;format=xml">
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-TTQBPJRW');</script>
+<!-- End Google Tag Manager -->
+
+<!-- End Google Tag Manager -->
+<script id="Cookiebot" src="https://consent.cookiebot.com/uc.js" data-cbid="faf2fcc9-844c-4f82-a96a-cb258449761e" data-blockingmode="auto" type="text/javascript"></script><script>WP_VIDEO_LIGHTBOX_VERSION="1.9.11";
+            WP_VID_LIGHTBOX_URL=".//wp-content/plugins/wp-video-lightbox";
+                        function wpvl_paramReplace(name, string, value) {
+                // Find the param with regex
+                // Grab the first character in the returned string (should be ? or &)
+                // Replace our href string with our new value, passing on the name and delimeter
+
+                var re = new RegExp("[\?&]" + name + "=([^&#]*)");
+                var matches = re.exec(string);
+                var newString;
+
+                if (matches === null) {
+                    // if there are no params, append the parameter
+                    newString = string + '?' + name + '=' + value;
+                } else {
+                    var delimeter = matches[0].charAt(0);
+                    newString = string.replace(re, delimeter + name + "=" + value);
+                }
+                return newString;
+            }</script>	<noscript><style>.woocommerce-product-gallery{ opacity: 1 !important; }</style></noscript>
+	<meta name="generator" content="Elementor 3.24.7; features: e_font_icon_svg, additional_custom_breakpoints, e_optimized_control_loading; settings: css_print_method-external, google_font-enabled, font_display-swap">
+			<style>.e-con.e-parent:nth-of-type(n+4):not(.e-lazyloaded):not(.e-no-lazyload),
+				.e-con.e-parent:nth-of-type(n+4):not(.e-lazyloaded):not(.e-no-lazyload) * {
+					background-image: none !important;
+				}
+				@media screen and (max-height: 1024px) {
+					.e-con.e-parent:nth-of-type(n+3):not(.e-lazyloaded):not(.e-no-lazyload),
+					.e-con.e-parent:nth-of-type(n+3):not(.e-lazyloaded):not(.e-no-lazyload) * {
+						background-image: none !important;
+					}
+				}
+				@media screen and (max-height: 640px) {
+					.e-con.e-parent:nth-of-type(n+2):not(.e-lazyloaded):not(.e-no-lazyload),
+					.e-con.e-parent:nth-of-type(n+2):not(.e-lazyloaded):not(.e-no-lazyload) * {
+						background-image: none !important;
+					}
+				}</style>
+					<style type="text/css">.site-title,
+			.site-description {
+				position: absolute;
+				clip: rect(1px, 1px, 1px, 1px);
+			}</style>
+		<style class="wp-fonts-local" type="text/css">@font-face{font-family:Inter;font-style:normal;font-weight:300 900;font-display:fallback;src:url('./../../wp-content/plugins/woocommerce/assets/fonts/Inter-VariableFont_slnt,wght.woff2') format('woff2');font-stretch:normal;}
+@font-face{font-family:Cardo;font-style:normal;font-weight:400;font-display:fallback;src:url('./../../wp-content/plugins/woocommerce/assets/fonts/cardo_normal_400.woff2') format('woff2');}</style>
+<link rel="icon" href="./../../wp-content/uploads/2024/02/favicon_update.png" sizes="32x32">
+<link rel="icon" href="./../../wp-content/uploads/2024/02/favicon_update.png" sizes="192x192">
+<link rel="apple-touch-icon" href="./../../wp-content/uploads/2024/02/favicon_update.png">
+<meta name="msapplication-TileImage" content="./../../wp-content/uploads/2024/02/favicon_update.png">
+		<style type="text/css" id="wp-custom-css">.masteriyo-course--content .masteriyo-time-btn .masteriyo-btn {
+	border-radius: 2px;
+}
+
+.masteriyo-btn-primary:focus {
+	background-color: #9d80ff;
+}
+
+#block-12 ul {
+	line-height: 2.8em;
+	margin-top: -0.1em;
+}
+
+.tg-icon-bars {
+	color: #fff;
+}
+
+#evf-submit-19 {
+	background-color: #7963e0;
+	color: #fff;
+	border-radius: 2px;
+	border: 0;
+}
+
+#evf-submit-19:hover {
+	background-color: #9d80ff;
+}
+
+.masteriyo-course-search button {
+	border-top-right-radius: 2px;
+	border-bottom-right-radius: 2px;
+}
+
+.masteriyo-search .search-field {
+	border-radius: 2px;
+}
+
+.masteriyo-checkout-main {
+	box-shadow: none;
+	padding: 0;
+}
+
+.masteriyo-course--img-wrap img {
+	border-top-left-radius: 2px;
+	border-top-right-radius: 2px;
+}
+
+.tg-primary-menu > div > ul li:not(.tg-header-button-wrap) a {
+    color: #334b49 !important;
+}
+.tg-site-header-bottom{
+	background-color: #ffffff;
+}
+.tg-page-header{
+	background-color: #4AACA7 !important;
+}
+.everest-forms input[type='text'], .everest-forms input[type='email']{
+	padding: 12px 12px !important;
+}
+/* .course-curriculum{
+	display: none;
+}
+ */
+.post-thumbnail{
+	text-align: center;
+}
+
+/* .vds-button .css-en-1o02686{
+	display: none !important;
+} */
+/*for stop sharing button*/
+/* .chakra-icon .css-en-ha8lf2{
+	display:none;
+} */
+
+/* Hide the YouTube iframe container's share buttons (if any exist) */
+.tg-header-action-list .tg-header-action__item.tg-mobile-toggle{
+	background-color: #000000;
+}</style>
+		
+
+
+
+</head>
+
+<body class="product-template-default single single-product postid-2887 wp-custom-logo theme-elearning everest-forms-no-js user-registration-page woocommerce woocommerce-page woocommerce-no-js tg-site-layout--stretched tg-container--wide has-page-header has-breadcrumbs elementor-default elementor-kit-944">
+
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TTQBPJRW" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) --><script>document.addEventListener('DOMContentLoaded', function() {
+    var video = document.getElementById('no_click');
+    if (video) {
+        video.addEventListener('contextmenu', function(e) {
+            e.preventDefault();
+        });
+    }
+});
+//developer right click disable</script>
+
+<div id="page" class="tg-site">
+	<a class="skip-link screen-reader-text" href="#primary">Skip to content</a>
+	
+	<header id="masthead" class="site-header tg-site-header tg-site-header--left">
+				<div class="tg-site-header-bottom">
+			<div class="tg-header-container tg-container tg-container--flex tg-container--flex-center tg-container--flex-space-between">
+						<div class="tg-block tg-block--one">
+					<div class="site-branding">
+			<a href="./../../index.html" class="custom-logo-link" rel="home"><img width="170" height="60" src="./../../wp-content/uploads/2024/02/whatson-academy-final-logo.png" class="custom-logo" alt="whatson academy final logo" decoding="async" srcset="./../../wp-content/uploads/2024/02/whatson-academy-final-logo.png 1x, ./../../wp-content/uploads/2024/02/whatson-academy-final-logo.png 2x"></a>			<div class="site-info-wrap">
+									<p class="site-title">
+						<a href="./../../index.html" rel="home">WhatsOn Academy</a>
+					</p>
+								</div>
+		</div>
+				</div>
+								<div class="tg-block tg-block--two">
+					<nav id="site-navigation" class="main-navigation tg-primary-menu tg-primary-menu--style-none">
+			<div class="menu"><ul id="primary-menu" class="menu-primary">
+<li id="menu-item-1891" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-1891"><a href="./../../index.html">Home</a></li>
+<li id="menu-item-1890" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1890"><a href="./../../about/index.html">About</a></li>
+<li id="menu-item-1889" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1889"><a href="./../../sponsor/index.html">Sponsor</a></li>
+<li id="menu-item-1892" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-1892">
+<a href="#">WhatsOn Awards</a>
+<ul class="sub-menu">
+	<li id="menu-item-1893" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1893"><a href="./../../whatson-awards-gallery-2022/index.html">Awards Gallery</a></li>
+	<li id="menu-item-1894" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1894"><a href="./../../sponsor/index.html">Sponsor</a></li>
+	<li id="menu-item-1895" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1895"><a href="./../../winners/index.html">Winners</a></li>
+	<li id="menu-item-1934" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1934"><a href="./../../finalists/index.html">Finalists</a></li>
+</ul>
+</li>
+<li id="menu-item-1896" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-1896">
+<a href="./../../events/index.html">Events</a>
+<ul class="sub-menu">
+	<li id="menu-item-2015" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2015"><a href="./../../it-events/index.html">IT Events</a></li>
+	<li id="menu-item-2014" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2014"><a href="./../../music-events/index.html">Music Events</a></li>
+</ul>
+</li>
+<li id="menu-item-3502" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-3502">
+<a href="./../../courses/index.html">Courses</a>
+<ul class="sub-menu">
+	<li id="menu-item-2016" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2016"><a href="./../../it-course/index.html">IT Course</a></li>
+	<li id="menu-item-2026" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2026"><a href="./../../music-course/index.html">Music Course</a></li>
+</ul>
+</li>
+<li id="menu-item-1898" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1898"><a href="./../../contact/index.html">Contact</a></li>
+<li id="menu-item-1899" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1899"><a href="./../../account/index.html">Account</a></li>
+</ul></div>		</nav>
+				<nav id="header-action" class="tg-header-action">
+			<ul class="tg-header-action-list">
+				<li class="tg-header-action__item tg-mobile-toggle">
+										<button aria-label="Primary Menu">
+						<i class="tg-icon tg-icon-bars"></i>
+					</button>
+									</li>
+			</ul>
+		</nav>
+				<nav id="mobile-navigation" class="tg-mobile-navigation">
+			<div class="menu-main-menu-container"><ul id="mobile-primary-menu" class="menu">
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-1891"><a href="./../../index.html">Home</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1890"><a href="./../../about/index.html">About</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1889"><a href="./../../sponsor/index.html">Sponsor</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-1892">
+<a href="#">WhatsOn Awards</a>
+<ul class="sub-menu">
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1893"><a href="./../../whatson-awards-gallery-2022/index.html">Awards Gallery</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1894"><a href="./../../sponsor/index.html">Sponsor</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1895"><a href="./../../winners/index.html">Winners</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1934"><a href="./../../finalists/index.html">Finalists</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-1896">
+<a href="./../../events/index.html">Events</a>
+<ul class="sub-menu">
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2015"><a href="./../../it-events/index.html">IT Events</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2014"><a href="./../../music-events/index.html">Music Events</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-3502">
+<a href="./../../courses/index.html">Courses</a>
+<ul class="sub-menu">
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2016"><a href="./../../it-course/index.html">IT Course</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2026"><a href="./../../music-course/index.html">Music Course</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1898"><a href="./../../contact/index.html">Contact</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1899"><a href="./../../account/index.html">Account</a></li>
+</ul></div>		</nav>
+				</div>
+					</div>
+		</div>
+			</header><!-- #masthead -->
+
+	
+		<main id="main" class="site-main">
+		<header class="tg-page-header tg-page-header--both-center">
+	<div class="tg-container tg-container--flex tg-container--flex-center tg-container--flex-space-between">
+		<div class="tg-page-header-title">
+			<h1 class="tg-page-header__title">Frontend Development</h1>		</div>
+		<nav role="navigation" aria-label="Breadcrumbs" class="breadcrumb-trail breadcrumbs" itemprop="breadcrumb"><ul class="trail-items" itemscope itemtype="http://schema.org/BreadcrumbList">
+<meta name="numberOfItems" content="2">
+<meta name="itemListOrder" content="Ascending">
+<li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem" class="trail-item">
+<a href="./../../index.html" rel="home" itemprop="item"><span itemprop="name">Home</span></a><meta content="1">
+</li>
+<li class="trail-item trail-end"><span>Frontend Development</span></li>
+</ul></nav>	</div>
+</header>
+<!-- /.page-header -->
+		<div id="content" class="site-content">
+			<div class="tg-container tg-container--flex tg-container--flex-space-between">
+	<div id="primary" class="content-area">
+		
+<article id="post-2887" class="tg-meta-style-two post-2887 product type-product status-publish has-post-thumbnail product_cat-uncategorized elearning-single-article first instock downloadable virtual sold-individually taxable purchasable product-type-mto_course">
+
+	<header class="entry-header">
+	</header><!-- .entry-header -->
+		<div class="post-thumbnail">
+					</div>
+<!-- .post-thumbnail -->
+		
+<div class="entry-content">
+	<div class="woocommerce">			<div class="single-product" data-product-page-preselected-id="0">
+				<div class="woocommerce-notices-wrapper"></div>
+<div id="product-2887" class="elearning-single-article product type-product post-2887 status-publish instock product_cat-uncategorized has-post-thumbnail downloadable virtual sold-individually taxable purchasable product-type-mto_course">
+
+	<div class="woocommerce-product-gallery woocommerce-product-gallery--with-images woocommerce-product-gallery--columns-4 images" data-columns="4" style="opacity: 0; transition: opacity .25s ease-in-out;">
+	<div class="woocommerce-product-gallery__wrapper">
+		<div data-thumb=".//wp-content/uploads/2024/03/Course-696-x-398-px-100x100.png" data-thumb-alt="Course (696 x 398 px)" class="woocommerce-product-gallery__image"><a href="./../../wp-content/uploads/2024/03/Course-696-x-398-px.png"><img fetchpriority="high" decoding="async" width="600" height="343" src="./../../wp-content/uploads/2024/03/Course-696-x-398-px-600x343.png" class="wp-post-image" alt="Course (696 x 398 px)" title="Course (696 x 398 px)" data-caption="" data-src="./../../wp-content/uploads/2024/03/Course-696-x-398-px.png" data-large_image=".//wp-content/uploads/2024/03/Course-696-x-398-px.png" data-large_image_width="696" data-large_image_height="398" srcset="./../../wp-content/uploads/2024/03/Course-696-x-398-px-600x343.png 600w, ./../../wp-content/uploads/2024/03/Course-696-x-398-px-300x172.png 300w, ./../../wp-content/uploads/2024/03/Course-696-x-398-px.png 696w" sizes="(max-width: 600px) 100vw, 600px"></a></div>	</div>
+</div>
+
+	<div class="summary entry-summary">
+		<p class="price"><span class="woocommerce-Price-amount amount"><bdi>3,000.00<span class="woocommerce-Price-currencySymbol">&#2547;&nbsp;</span></bdi></span></p>
+
+	
+	<form class="cart" action="" method="post" enctype="multipart/form-data">
+		
+		<div class="quantity">
+		<label class="screen-reader-text" for="quantity_679b1a40ce71c">Frontend Development quantity</label>
+	<input type="hidden" id="quantity_679b1a40ce71c" class="input-text qty text" name="quantity" value="1" aria-label="Product quantity" size="4" min="1" max="1" step="1" placeholder="" inputmode="numeric" autocomplete="off">
+	</div>
+
+		<button type="submit" name="add-to-cart" value="2887" class="single_add_to_cart_button button alt">Add to cart</button>
+
+			</form>
+
+	
+<div class="product_meta">
+
+	
+	
+	<span class="posted_in">Category: <a href="./../../product-category/uncategorized/index.html" rel="tag">Uncategorized</a></span>
+	
+	
+</div>
+	</div>
+
+	
+	<div class="woocommerce-tabs wc-tabs-wrapper">
+		<ul class="tabs wc-tabs" role="tablist">
+							<li class="description_tab" id="tab-title-description" role="tab" aria-controls="tab-description">
+					<a href="#tab-description">
+						Description					</a>
+				</li>
+					</ul>
+					<div class="woocommerce-Tabs-panel woocommerce-Tabs-panel--description panel entry-content wc-tab" id="tab-description" role="tabpanel" aria-labelledby="tab-title-description">
+				
+	<h2>Description</h2>
+
+<div class="td_block_wrap tdb_title tdi_65 tdb-single-title td-pb-border-top td_block_template_1" data-td-block-uid="tdi_65">
+<div class="tdb-block-inner td-fix-index">
+<h3 class="tdb-title-text">Embark on a Tech Odyssey: Master Full-Stack App Deployment</h3>
+</div>
+</div>
+<div class="td_block_wrap tdb_single_featured_image tdi_66 tdb-content-horiz-left td-pb-border-top td_block_template_1" data-td-block-uid="tdi_66">
+<div class="tdb-block-inner td-fix-index">
+<p style="text-align: left;">Set Sail on a Tech Adventure: Explore the Cutting Edge of Technology with WhatsOn IT Academy’s Intensive Course on <strong>March 2, 2024, at 15:00 in BD Time and 9:00 in UK Time.</strong> This detailed curriculum is tailored to equip learners with the core competencies needed to navigate the ever-evolving landscape of contemporary web development.</p>
+<h4 id="h-understanding-firebase-hosting" class="wp-block-heading"><strong>Understanding Firebase Hosting</strong></h4>
+<ul>
+<li>Exploring the benefits of Firebase Hosting.</li>
+<li>Understanding the role of Firebase CLI in deploying front-end applications.</li>
+<li>Comprehending the role of Firebase Hosting as a static web content hosting platform.</li>
+</ul>
+<h4 id="h-deploying-the-frontend-to-firebase-hosting" class="wp-block-heading"><strong>Deploying the Frontend to Firebase Hosting</strong></h4>
+<ul>
+<li>Installing Firebase CLI.</li>
+<li>Logging into Firebase.</li>
+<li>Initializing Firebase in a project.Building the frontend.</li>
+<li>Deploying the frontend to Firebase Hosting.</li>
+</ul>
+<h4 id="h-understanding-vercel" class="wp-block-heading"><strong>Understanding Vercel</strong></h4>
+<ul>
+<li>Exploring the features and advantages of Vercel.</li>
+<li>Understanding the process of deploying backend applications to Vercel.</li>
+<li>Comprehending the significance of Vercel in deploying serverless functions and APIs.</li>
+</ul>
+<h4 id="h-deploying-the-backend-to-vercel" class="wp-block-heading"><strong>Deploying the Backend to Vercel</strong></h4>
+<ul>
+<li>Installing Vercel CLI.</li>
+<li>Logging into Vercel.</li>
+<li>Initializing Vercel in a project.Navigating to the backend directory.</li>
+<li>Deploying the backend to Vercel.</li>
+</ul>
+<h4 id="h-implementing-a-full-stack-application-deployment-process" class="wp-block-heading"><strong>Implementing a Full-Stack Application Deployment Process</strong></h4>
+<ul>
+<li>Understanding the importance of a full-stack application deployment process.</li>
+<li>Grasping the significance of a full-stack application in web development.</li>
+<li>Discussing the challenges and considerations in deploying full-stack applications.</li>
+<li>Building a full-stack application deployment process.</li>
+</ul>
+<p>Upon completion of this lesson, you will have a comprehensive understanding of deploying a full-stack application. You will understand the roles of Firebase Hosting and Vercel in hosting frontend and backend applications, respectively. You will also be able to deploy a full-stack application to Firebase Hosting and Vercel.</p>
+</div>
+</div>
+<div class="extra-hatom" style="display: none !important;"><span class="entry-title">Frontend Development</span></div>			</div>
+		
+			</div>
+
+
+	<section class="related products">
+
+					<h2>Related products</h2>
+				
+		<ul class="products columns-4">
+
+			
+					<li class="elearning-single-article product type-product post-3565 status-publish first instock product_cat-uncategorized has-post-thumbnail downloadable virtual sold-individually taxable product-type-mto_course">
+	<a href="./../british-assessment-bureau-and-gdpr/index.html" class="woocommerce-LoopProduct-link woocommerce-loop-product__link"><img decoding="async" width="300" height="300" src="./../../wp-content/uploads/2025/01/British-Assesment-300x300.jpg" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="" srcset="./../../wp-content/uploads/2025/01/British-Assesment-300x300.jpg 300w, ./../../wp-content/uploads/2025/01/British-Assesment-150x150.jpg 150w, ./../../wp-content/uploads/2025/01/British-Assesment-100x100.jpg 100w" sizes="(max-width: 300px) 100vw, 300px"><h2 class="woocommerce-loop-product__title">British Assessment Bureau and GDPR</h2>
+</a><a href="./../british-assessment-bureau-and-gdpr/index.html" aria-describedby="woocommerce_loop_add_to_cart_link_describedby_3565" data-quantity="1" class="button product_type_mto_course" data-product_id="3565" data-product_sku="" aria-label="Read more about &ldquo;British Assessment Bureau and GDPR&rdquo;" rel="nofollow">Read more</a><span id="woocommerce_loop_add_to_cart_link_describedby_3565" class="screen-reader-text">
+	</span>
+</li>
+
+			
+					<li class="elearning-single-article product type-product post-3570 status-publish instock product_cat-uncategorized has-post-thumbnail downloadable virtual sold-individually taxable purchasable product-type-mto_course">
+	<a href="./../british-assessment-bureau-and-gdpr-2/index.html" class="woocommerce-LoopProduct-link woocommerce-loop-product__link"><img decoding="async" width="300" height="300" src="./../../wp-content/uploads/2025/01/British-Assesment-300x300.jpg" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="" srcset="./../../wp-content/uploads/2025/01/British-Assesment-300x300.jpg 300w, ./../../wp-content/uploads/2025/01/British-Assesment-150x150.jpg 150w, ./../../wp-content/uploads/2025/01/British-Assesment-100x100.jpg 100w" sizes="(max-width: 300px) 100vw, 300px"><h2 class="woocommerce-loop-product__title">British Assessment Bureau and GDPR</h2>
+	<span class="price"><span class="woocommerce-Price-amount amount"><bdi>2.00<span class="woocommerce-Price-currencySymbol">&#2547;&nbsp;</span></bdi></span></span>
+</a><a href="./index.html?add-to-cart=3570" aria-describedby="woocommerce_loop_add_to_cart_link_describedby_3570" data-quantity="1" class="button product_type_mto_course add_to_cart_button ajax_add_to_cart" data-product_id="3570" data-product_sku="" aria-label="Add to cart: &ldquo;British Assessment Bureau and GDPR&rdquo;" rel="nofollow">Add to cart</a><span id="woocommerce_loop_add_to_cart_link_describedby_3570" class="screen-reader-text">
+	</span>
+</li>
+
+			
+					<li class="elearning-single-article product type-product post-3475 status-publish instock product_cat-uncategorized has-post-thumbnail sale downloadable virtual sold-individually taxable purchasable product-type-mto_course">
+	<a href="./../wordpress-theme-development/index.html" class="woocommerce-LoopProduct-link woocommerce-loop-product__link">
+	<span class="onsale">Sale!</span>
+	<img loading="lazy" decoding="async" width="300" height="300" src="./../../wp-content/uploads/2024/11/WordPress-Theme-Development-300x300.jpg" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="" srcset="./../../wp-content/uploads/2024/11/WordPress-Theme-Development-300x300.jpg 300w, ./../../wp-content/uploads/2024/11/WordPress-Theme-Development-1024x1024.jpg 1024w, ./../../wp-content/uploads/2024/11/WordPress-Theme-Development-150x150.jpg 150w, ./../../wp-content/uploads/2024/11/WordPress-Theme-Development-768x768.jpg 768w, ./../../wp-content/uploads/2024/11/WordPress-Theme-Development-1536x1536.jpg 1536w, ./../../wp-content/uploads/2024/11/WordPress-Theme-Development-2048x2048.jpg 2048w, ./../../wp-content/uploads/2024/11/WordPress-Theme-Development-600x600.jpg 600w, ./../../wp-content/uploads/2024/11/WordPress-Theme-Development-100x100.jpg 100w" sizes="(max-width: 300px) 100vw, 300px"><h2 class="woocommerce-loop-product__title">WordPress Theme Development</h2>
+	<span class="price"><del aria-hidden="true"><span class="woocommerce-Price-amount amount"><bdi>15,000.00<span class="woocommerce-Price-currencySymbol">&#2547;&nbsp;</span></bdi></span></del> <span class="screen-reader-text">Original price was: 15,000.00&#2547;&nbsp;.</span><ins aria-hidden="true"><span class="woocommerce-Price-amount amount"><bdi>10,000.00<span class="woocommerce-Price-currencySymbol">&#2547;&nbsp;</span></bdi></span></ins><span class="screen-reader-text">Current price is: 10,000.00&#2547;&nbsp;.</span></span>
+</a><a href="./index.html?add-to-cart=3475" aria-describedby="woocommerce_loop_add_to_cart_link_describedby_3475" data-quantity="1" class="button product_type_mto_course add_to_cart_button ajax_add_to_cart" data-product_id="3475" data-product_sku="" aria-label="Add to cart: &ldquo;WordPress Theme Development&rdquo;" rel="nofollow">Add to cart</a><span id="woocommerce_loop_add_to_cart_link_describedby_3475" class="screen-reader-text">
+	</span>
+</li>
+
+			
+					<li class="elearning-single-article product type-product post-3191 status-publish last instock product_cat-uncategorized has-post-thumbnail downloadable virtual sold-individually taxable purchasable product-type-mto_course">
+	<a href="./../social-media-marketing-a-z-become-a-digital-marketer/index.html" class="woocommerce-LoopProduct-link woocommerce-loop-product__link"><img loading="lazy" decoding="async" width="300" height="300" src="./../../wp-content/uploads/2024/08/Social-Media-Marketing-A-Z_-Become-a-Digital-Marketer-300x300.png" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="" srcset="./../../wp-content/uploads/2024/08/Social-Media-Marketing-A-Z_-Become-a-Digital-Marketer-300x300.png 300w, ./../../wp-content/uploads/2024/08/Social-Media-Marketing-A-Z_-Become-a-Digital-Marketer-150x150.png 150w, ./../../wp-content/uploads/2024/08/Social-Media-Marketing-A-Z_-Become-a-Digital-Marketer-600x600.png 600w, ./../../wp-content/uploads/2024/08/Social-Media-Marketing-A-Z_-Become-a-Digital-Marketer-100x100.png 100w, ./../../wp-content/uploads/2024/08/Social-Media-Marketing-A-Z_-Become-a-Digital-Marketer.png 696w" sizes="(max-width: 300px) 100vw, 300px"><h2 class="woocommerce-loop-product__title">Social Media Marketing A-Z: Become a Digital Marketer</h2>
+	<span class="price"><span class="woocommerce-Price-amount amount"><bdi>2,000.00<span class="woocommerce-Price-currencySymbol">&#2547;&nbsp;</span></bdi></span></span>
+</a><a href="./index.html?add-to-cart=3191" aria-describedby="woocommerce_loop_add_to_cart_link_describedby_3191" data-quantity="1" class="button product_type_mto_course add_to_cart_button ajax_add_to_cart" data-product_id="3191" data-product_sku="" aria-label="Add to cart: &ldquo;Social Media Marketing A-Z: Become a Digital Marketer&rdquo;" rel="nofollow">Add to cart</a><span id="woocommerce_loop_add_to_cart_link_describedby_3191" class="screen-reader-text">
+	</span>
+</li>
+
+			
+		</ul>
+
+	</section>
+	</div>
+
+			</div>
+			</div>
+</div>
+<!-- .entry-content -->
+</article><!-- #post-2887 -->
+
+	<nav class="navigation post-navigation" aria-label="Posts">
+		<h2 class="screen-reader-text">Post navigation</h2>
+		<div class="nav-links">
+<div class="nav-previous"><a href="./../wordpress-theme-customization/index.html" rel="prev">WordPress Theme Customization</a></div>
+<div class="nav-next"><a href="./../social-media-marketing-a-z-become-a-digital-marketer/index.html" rel="next">Social Media Marketing A-Z: Become a Digital Marketer</a></div>
+</div>
+	</nav>	</div>
+<!-- #primary -->
+
+			</div> <!-- /.site-content from header.php -->
+		</div> <!-- /.tg-container from header.php -->
+	</main> <!-- /#content from header.php -->
+	
+	
+	<footer id="colophon" class="site-footer tg-site-footer ">
+				<div class="tg-site-footer-widgets">
+			<div class="tg-container">
+				
+<div class="tg-footer-widget-container tg-footer-widget-col--four">
+					<div class="tg-footer-widget-area footer-sidebar-1">
+											<section id="block-12" class="widget widget_block widget_media_image">
+<figure class="wp-block-image size-full"><img loading="lazy" decoding="async" width="170" height="60" src="./../../wp-content/uploads/2024/02/whatson-academy-final-logo.png" alt="whatson academy final logo" class="wp-image-1110"></figure>
+</section><section id="block-32" class="widget widget_block"><p><strong>HQ:</strong> 13A Cannon Street<br>Birmingham B2 5EN<br>United Kingdom<br>
+<strong>Asia Address:</strong> H-9, 1F, R-2 S-3, Dhaka 1230</p></section><section id="block-28" class="widget widget_block widget_text">
+<p><strong>Phone:</strong>&nbsp;+44 (121) 655 1122,<br>+88 01601442162<br><strong>Email:</strong>&nbsp;<a href="./../../cdn-cgi/l/email-protection/index.html" class="__cf_email__" data-cfemail="22414d4c5643415662554a4356514d4c0c43414346474f5b">[email&#160;protected]</a></p>
+</section>									</div>
+								<div class="tg-footer-widget-area footer-sidebar-2">
+											<section id="block-14" class="widget widget_block">
+<h6 class="wp-block-heading">Useful Links</h6>
+</section><section id="nav_menu-1" class="widget widget_nav_menu"><div class="menu-quick-links-2-container"><ul id="menu-quick-links-2" class="menu">
+<li id="menu-item-1876" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1876"><a href="./../../account/index.html">Account</a></li>
+<li id="menu-item-1877" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1877"><a href="./../../courses/index.html">Courses</a></li>
+<li id="menu-item-1878" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1878"><a href="./../../contact/index.html">Contact</a></li>
+<li id="menu-item-1879" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1879"><a href="./../../checkout-2-2/index.html">Checkout</a></li>
+<li id="menu-item-2177" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2177"><a target="_blank" href="https://github.com/whatsondev/developer-documentation">Developers Doc.</a></li>
+</ul></div></section>									</div>
+								<div class="tg-footer-widget-area footer-sidebar-3">
+											<section id="block-15" class="widget widget_block">
+<h6 class="wp-block-heading">Our Services</h6>
+</section><section id="nav_menu-2" class="widget widget_nav_menu"><div class="menu-company-container"><ul id="menu-company" class="menu">
+<li id="menu-item-1589" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1589"><a href="./../../about/index.html">About</a></li>
+<li id="menu-item-1881" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1881"><a href="./../../whatson-awards-gallery-2022/index.html">Awards Gallery</a></li>
+<li id="menu-item-1882" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1882"><a href="./../../events/index.html">Events</a></li>
+<li id="menu-item-1883" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1883"><a href="./../../sponsor/index.html">Sponsor</a></li>
+</ul></div></section>									</div>
+								<div class="tg-footer-widget-area footer-sidebar-4">
+											<section id="block-16" class="widget widget_block">
+<h6 class="wp-block-heading">Join Our Newsletter<br>
+</h6>
+</section><section id="block-20" class="widget widget_block widget_text">
+<p>You are always our priority. We will let you know about offers and important stuff.</p>
+</section><section id="block-22" class="widget widget_block">
+<div class="wp-block-columns is-layout-flex wp-container-core-columns-is-layout-1 wp-block-columns-is-layout-flex">
+<div class="wp-block-column is-layout-flow wp-block-column-is-layout-flow" style="flex-basis:100%">
+<div class="wp-block-group"><div class="wp-block-group__inner-container is-layout-constrained wp-block-group-is-layout-constrained">
+<div class="wp-block-buttons is-layout-flex wp-block-buttons-is-layout-flex">
+<div class="wp-block-button"><a class="wp-block-button__link has-white-color has-text-color has-background has-link-color wp-element-button" href="https://whatson.news/newsletter/subscribe" style="background-color:#4aaca7">Subscribe</a></div>
+</div>
+</div></div>
+</div>
+</div>
+</section>									</div>
+				</div> <!-- /.tg-footer-widget-container -->
+			</div>
+<!-- /.tg-container-->
+		</div>
+<!-- /.tg-site-footer-widgets -->
+				<div class="tg-site-footer-bar tg-site-footer-bar--center">
+			<div class="tg-container tg-container--flex tg-container--flex-top">
+					<div class="tg-site-footer-section-1">
+						<p>© Copyright <strong><a href="https://whatson.guide/" target="_blank" rel="noopener">WhatsOn</a></strong>. All Rights Reserved</p>					</div>
+				<div class="tg-site-footer-section-2">
+									</div>
+			</div>
+		</div>
+			</footer><!-- #colophon -->
+
+	</div>
+<!-- #page -->
+
+
+		<a href="#" id="tg-scroll-to-top" class="tg-scroll-to-top">
+			<i class="tg-icon tg-icon-arrow-up">
+				<span class="screen-reader-text">Scroll to top</span>
+			</i>
+		</a>
+		<div class="tg-overlay-wrapper"></div>
+		    <script data-cfasync="false" src="./../../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script type="text/javascript">document.addEventListener('DOMContentLoaded', function() {
+        const enrollButton = document.querySelector('.masteriyo-enroll-btn');
+        if (enrollButton && enrollButton.textContent.trim() === 'Buy Now') {
+            enrollButton.textContent = 'Enroll Now';
+        }
+    });</script>
+    <script>document.addEventListener('DOMContentLoaded', function() {
+    var button = document.querySelector('.ytp-large-play-button');
+    if (button) {
+        button.disabled = true; // Disable the button
+        button.style.pointerEvents = 'none'; // Make it unclickable
+    }
+});</script>
+
+    <script>document.addEventListener("DOMContentLoaded", function() {
+        var iframes = document.querySelectorAll("iframe[src*=\"youtube.com\"]");
+        iframes.forEach(function(iframe) {
+            var overlay = document.createElement("div");
+            overlay.style.position = "absolute";
+            overlay.style.top = "0";
+            overlay.style.left = "0";
+            overlay.style.width = "100%";
+            overlay.style.height = "100%";
+            overlay.style.zIndex = "10";
+            overlay.style.backgroundColor = "transparent";
+            overlay.oncontextmenu = function() { return false; };
+
+            var wrapper = document.createElement("div");
+            wrapper.style.position = "relative";
+            wrapper.style.paddingBottom = "56.25%";
+            wrapper.style.height = "0";
+            wrapper.style.overflow = "hidden";
+            wrapper.style.maxWidth = "100%";
+            wrapper.style.background = "#000";
+
+            iframe.style.position = "absolute";
+            iframe.style.top = "0";
+            iframe.style.left = "0";
+            iframe.style.width = "100%";
+            iframe.style.height = "100%";
+
+            iframe.parentNode.insertBefore(wrapper, iframe);
+            wrapper.appendChild(iframe);
+            wrapper.appendChild(overlay);
+        });
+    });</script>
+    <script type="application/ld+json">{"@context":"https:\/\/schema.org\/","@type":"Product","@id":".\/\/product\/frontend-development\/#product","name":"Frontend Development","url":".\/\/product\/frontend-development\/","description":"Embark on a Tech Odyssey: Master Full-Stack App Deployment\r\n\r\n\r\n\r\n\r\nSet Sail on a Tech Adventure: Explore the Cutting Edge of Technology with WhatsOn IT Academy’s Intensive Course on March 2, 2024, at 15:00 in BD Time and 9:00 in UK Time. This detailed curriculum is tailored to equip learners with the core competencies needed to navigate the ever-evolving landscape of contemporary web development.\r\n\r\nUnderstanding Firebase Hosting\r\n\r\n \tExploring the benefits of Firebase Hosting.\r\n \tUnderstanding the role of Firebase CLI in deploying front-end applications.\r\n \tComprehending the role of Firebase Hosting as a static web content hosting platform.\r\n\r\nDeploying the Frontend to Firebase Hosting\r\n\r\n \tInstalling Firebase CLI.\r\n \tLogging into Firebase.\r\n \tInitializing Firebase in a project.Building the frontend.\r\n \tDeploying the frontend to Firebase Hosting.\r\n\r\nUnderstanding Vercel\r\n\r\n \tExploring the features and advantages of Vercel.\r\n \tUnderstanding the process of deploying backend applications to Vercel.\r\n \tComprehending the significance of Vercel in deploying serverless functions and APIs.\r\n\r\nDeploying the Backend to Vercel\r\n\r\n \tInstalling Vercel CLI.\r\n \tLogging into Vercel.\r\n \tInitializing Vercel in a project.Navigating to the backend directory.\r\n \tDeploying the backend to Vercel.\r\n\r\nImplementing a Full-Stack Application Deployment Process\r\n\r\n \tUnderstanding the importance of a full-stack application deployment process.\r\n \tGrasping the significance of a full-stack application in web development.\r\n \tDiscussing the challenges and considerations in deploying full-stack applications.\r\n \tBuilding a full-stack application deployment process.\r\n\r\nUpon completion of this lesson, you will have a comprehensive understanding of deploying a full-stack application. You will understand the roles of Firebase Hosting and Vercel in hosting frontend and backend applications, respectively. You will also be able to deploy a full-stack application to Firebase Hosting and Vercel.","image":".\/\/wp-content\/uploads\/2024\/03\/Course-696-x-398-px.png","sku":2887,"offers":[{"@type":"Offer","price":"3000.00","priceValidUntil":"2026-12-31","priceSpecification":{"price":"3000.00","priceCurrency":"BDT","valueAddedTaxIncluded":"false"},"priceCurrency":"BDT","availability":"http:\/\/schema.org\/InStock","url":".\/\/product\/frontend-development\/","seller":{"@type":"Organization","name":"WhatsOn Academy","url":".\/"}}]}</script>			<script type="text/javascript">const lazyloadRunObserver = () => {
+					const lazyloadBackgrounds = document.querySelectorAll( `.e-con.e-parent:not(.e-lazyloaded)` );
+					const lazyloadBackgroundObserver = new IntersectionObserver( ( entries ) => {
+						entries.forEach( ( entry ) => {
+							if ( entry.isIntersecting ) {
+								let lazyloadBackground = entry.target;
+								if( lazyloadBackground ) {
+									lazyloadBackground.classList.add( 'e-lazyloaded' );
+								}
+								lazyloadBackgroundObserver.unobserve( entry.target );
+							}
+						});
+					}, { rootMargin: '200px 0px 200px 0px' } );
+					lazyloadBackgrounds.forEach( ( lazyloadBackground ) => {
+						lazyloadBackgroundObserver.observe( lazyloadBackground );
+					} );
+				};
+				const events = [
+					'DOMContentLoaded',
+					'elementor/lazyload/observe',
+				];
+				events.forEach( ( event ) => {
+					document.addEventListener( event, lazyloadRunObserver );
+				} );</script>
+			
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+	<div class="pswp__bg"></div>
+	<div class="pswp__scroll-wrap">
+		<div class="pswp__container">
+			<div class="pswp__item"></div>
+			<div class="pswp__item"></div>
+			<div class="pswp__item"></div>
+		</div>
+		<div class="pswp__ui pswp__ui--hidden">
+			<div class="pswp__top-bar">
+				<div class="pswp__counter"></div>
+				<button class="pswp__button pswp__button--close" aria-label="Close (Esc)"></button>
+				<button class="pswp__button pswp__button--share" aria-label="Share"></button>
+				<button class="pswp__button pswp__button--fs" aria-label="Toggle fullscreen"></button>
+				<button class="pswp__button pswp__button--zoom" aria-label="Zoom in/out"></button>
+				<div class="pswp__preloader">
+					<div class="pswp__preloader__icn">
+						<div class="pswp__preloader__cut">
+							<div class="pswp__preloader__donut"></div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+				<div class="pswp__share-tooltip"></div>
+			</div>
+			<button class="pswp__button pswp__button--arrow--left" aria-label="Previous (arrow left)"></button>
+			<button class="pswp__button pswp__button--arrow--right" aria-label="Next (arrow right)"></button>
+			<div class="pswp__caption">
+				<div class="pswp__caption__center"></div>
+			</div>
+		</div>
+	</div>
+</div>
+	<script type="text/javascript">var c = document.body.className;
+		c = c.replace( /everest-forms-no-js/, 'everest-forms-js' );
+		document.body.className = c;</script>
+		<script type="text/javascript">(function () {
+			var c = document.body.className;
+			c = c.replace(/woocommerce-no-js/, 'woocommerce-js');
+			document.body.className = c;
+		})();</script>
+	<link rel="stylesheet" id="wc-blocks-style-css" href="./../../wp-content/plugins/woocommerce/assets/client/blocks/wc-blocks.css?ver=wc-9.1.4" type="text/css" media="all">
+<style id="core-block-supports-inline-css" type="text/css">.wp-container-core-columns-is-layout-1{flex-wrap:nowrap;}</style>
+<script type="text/javascript" src="./../../wp-content/plugins/woocommerce/assets/js/sourcebuster/sourcebuster.min.js?ver=9.1.4" id="sourcebuster-js-js"></script>
+<script type="text/javascript" id="wc-order-attribution-js-extra">
+/* <![CDATA[ */
+var wc_order_attribution = {"params":{"lifetime":1.0000000000000000818030539140313095458623138256371021270751953125e-5,"session":30,"base64":false,"ajaxurl":".\/\/wp-admin\/admin-ajax.php","prefix":"wc_order_attribution_","allowTracking":true},"fields":{"source_type":"current.typ","referrer":"current_add.rf","utm_campaign":"current.cmp","utm_source":"current.src","utm_medium":"current.mdm","utm_content":"current.cnt","utm_id":"current.id","utm_term":"current.trm","utm_source_platform":"current.plt","utm_creative_format":"current.fmt","utm_marketing_tactic":"current.tct","session_entry":"current_add.ep","session_start_time":"current_add.fd","session_pages":"session.pgs","session_count":"udata.vst","user_agent":"udata.uag"}};
+/* ]]> */
+</script>
+<script type="text/javascript" src="./../../wp-content/plugins/woocommerce/assets/js/frontend/order-attribution.min.js?ver=9.1.4" id="wc-order-attribution-js"></script>
+<script type="text/javascript" src="./../../wp-content/themes/elearning/assets/js/navigation.min.js?ver=1.0.11" id="elearning-navigation-js"></script>
+<script type="text/javascript" src="./../../wp-content/themes/elearning/assets/js/skip-link-focus-fix.min.js?ver=1.0.11" id="elearning-skip-link-focus-fix-js"></script>
+<script type="text/javascript" src="./../../wp-content/themes/elearning/assets/js/elearning-custom.min.js?ver=1.0.11" id="elearning-custom-js"></script>
+
+</body>
+</html>
